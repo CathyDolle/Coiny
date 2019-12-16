@@ -21,7 +21,9 @@ h2 {
   font-size: 30px; }
 
 p {
-  color: white; }
+  font-weight: 300;
+  color: white;
+  font-size: 20px; }
 
 h6 {
   font-family: 'Rift Demi';
@@ -39,7 +41,7 @@ RESPONSIVE
 
   .welcome {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-direction: column;
     width: 100%;
@@ -52,7 +54,8 @@ RESPONSIVE
       height: 10%;
       margin-bottom: 20px; }
     .welcome_line {
-      margin-top: 10px;
+      margin-top: 12px;
+      margin-bottom: 12px;
       width: 30px;
       border-bottom: solid white 1px; }
     .welcome_picture {
@@ -70,9 +73,13 @@ RESPONSIVE
         width: 9px;
         height: 9px;
         border-radius: 100%;
-        background: rgba(0, 0, 0, 0.171); }
+        cursor: pointer; }
       .welcome_slider_1 {
         background: white; }
+      .welcome_slider_2 {
+        background: rgba(0, 0, 0, 0.171); }
+      .welcome_slider_3 {
+        background: rgba(0, 0, 0, 0.171); }
     .welcome_button {
       width: 150px;
       height: 40px;
@@ -81,6 +88,9 @@ RESPONSIVE
       align-items: center;
       background: white;
       border-radius: 20px;
-      box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.5); } }
+      box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.5);
+      cursor: pointer; } }
+.hidden {
+  display: none; }
 
 /*# sourceMappingURL=main.css.map */
